@@ -32,6 +32,7 @@ namespace :db do
 end
 
 rake db:migrate
+rake db:seed
 
 desc 'drop into the Pry console'
 task :console => :environment do
